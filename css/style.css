@@ -78,7 +78,7 @@ body {
 .contents {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
 
 .content-left {
@@ -97,7 +97,7 @@ body {
     height: 300px;
     border-radius: 10px;
     box-shadow: 0 0 10px white;
-    margin: 20px;
+    margin: 8px;
     border: 5px solid black;
     cursor: pointer;
 
@@ -249,6 +249,9 @@ body {
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
+    }
+    .content-card {
+        margin-right: 0px;
     }
     .content-left {
         display: grid;
