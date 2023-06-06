@@ -254,7 +254,12 @@ overflow: hidden;
    
     }
 
- 
+    .content-right h2 {
+        opacity: 0.8;
+    }
+    .content-right p {
+        opacity: 0.7;
+    }
     .content-left {
         display: grid;
         grid-template: 1fr;
